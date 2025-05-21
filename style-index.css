@@ -154,4 +154,65 @@
     font-weight: bold;
     margin-top: 10px;
   }
-  
+  @media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .profile {
+    flex-direction: column;
+  }
+
+  .photo, .bio {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .photo img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+
+  .bio {
+    text-align: center;
+  }
+
+  .skills-video {
+    flex-direction: column;
+  }
+
+  .gallery-social {
+    flex-direction: column;
+  }
+
+  .images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .images img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+
+  .video-frame {
+    height: auto;
+  }
+
+  .skills, .video, .gallery, .social {
+    width: 100%;
+  }
+
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
